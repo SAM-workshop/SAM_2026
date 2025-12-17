@@ -153,3 +153,18 @@ display: none;
 overflow: hidden;
 background-color: #ffffff;
 }
+
+.button {
+  display: inline-block; /* Allows padding/margin and keeps it inline with text flow */
+  padding: 10px 20px; /* Space between text and border */
+  background-color: #007bff; /* Button color */
+  color: white; /* Text color */
+  text-decoration: none; /* Removes default link underline */
+  border-radius: 5px; /* Rounds the corners */
+  text-align: center; /* Centers the text */
+  cursor: pointer; /* Ensures the cursor is a pointer on hover */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Color change on hover */
+}
